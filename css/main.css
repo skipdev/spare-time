@@ -1,0 +1,8 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body .wrapper {
+    width: 100%;
+}
