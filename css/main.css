@@ -1,0 +1,39 @@
+#wrapper{
+    background-color:lightgrey;
+    border-radius: 20px;
+    
+}
+
+
+#first{
+    background-color: white;
+    color:blue;
+    text-align: center;
+    width:80%;
+    margin: auto;
+    border-radius: 20px;
+}
+* {
+    font-family: 'Oswald', sans-serif;
+}
+
+#main{background-color: grey;
+    color:white;
+    text-align: center;
+    width:80%;
+    margin: auto;
+    padding-bottom: 30px;
+    border-radius: 20px;
+    box-shadow: 0 1px 5px rgba(190,190,190,0.7);
+}
+
+#second{   
+    background-color: white;
+    color:blue;
+    text-align: center;
+    width:80%;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 20px;
+    box-shadow: 0 1px 5px rgba(190,190,190,0.7);
+}
