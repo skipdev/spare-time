@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: #F4F4F4;
+}
+.wrapper {
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+.wrapper header {
+    width: 100%;
+    background: url('../img/banner.jpg') no-repeat center center fixed;
+    background-size: cover;
+    text-align: center;
+    padding: 40px 0
+
+}
+.wrapper header h1{
+    color: white;
+    font-weight: 700;
+}
+.wrapper header p{
+    color: white;
+    font-weight: 300;
+}
+.wrapper .resources{
+    width: 100%;
+    margin-top: 40px;
+}
+.wrapper .resources .resource-1{
+    height: 200px;
+    background: #ffffff;
+    margin-bottom: 10px;
+    -webkit-box-shadow: -5px 10px 5px -6px rgba(0,0,0,0.15);
+    -moz-box-shadow: -5px 10px 5px -6px rgba(0,0,0,0.15);
+    box-shadow: -5px 10px 5px -6px rgba(0,0,0,0.15);
+    border-radius: 5px;
+    margin: 0 20px;
+    border: 1px solid #f4f4f4;
+    padding: 30px
+}
