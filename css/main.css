@@ -1,11 +1,15 @@
 #wrapper{
     background-color:lightgrey;
     border-radius: 20px;
-    
+   
 }
 
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
 
-#first{
+.first{
     background-color: white;
     color:blue;
     text-align: center;
@@ -15,9 +19,10 @@
 }
 * {
     font-family: 'Oswald', sans-serif;
+    margin: 0;
 }
 
-.main{background-color: grey;
+.second{background-color: grey;
     color:white;
     text-align: center;
     width:80%;
@@ -27,7 +32,7 @@
     box-shadow: 0 1px 5px rgba(190,190,190,0.7);
 }
 
-.second{   
+.d{   
     background-color: white;
     color:blue;
     text-align: center;
@@ -41,9 +46,36 @@
     background-color:black;
     color:white;
     text-align: center;
-    width:80%;
+    width:100%;
     margin: auto;
-    margin-top: 20px;
-    border-radius: 20px;
-    box-shadow: 0 1px 5px rgba(190,190,190,0.7);
+    position: absolute;
+    bottom: 0;
+    padding:5px 0;
+}
+
+#footer ul a {
+    color: white;
+}
+
+#footer ul li{
+     display:inline-block ;
+     margin-right:30px;
+}
+
+#menu {
+    width: 100%;
+    background: black;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+#menu ul{
+    text-align: center;
+}
+#menu ul a{
+    text-decoration: none;
+    color: white;
+}
+#menu ul li{
+    display: inline-block;
+    margin-right: 30px;
 }
